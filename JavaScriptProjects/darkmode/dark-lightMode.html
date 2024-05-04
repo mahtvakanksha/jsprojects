@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 1)this is inline event handling in javascript -->
+    <!-- <button onclick="alert('hello!');">CLICK ME!</button>
+    <button ondblclick="alert('wassup broo!')">Hello!</button>
+    <div onmouseover="console.log('hovered')">this is a block</div> -->
+
+    <!--2) this is event handling using node functions -->
+    <!-- syntax:
+    node.event=()=>{
+
+    }  
+    NOTE:priority of javascript event handling code >> priority of inline eventhandling;
+  -->
+    <button class="btn">mode</button>
+
+    <!-- event object(e)
+    node.event=(e)=>
+    {
+      
+    }
+    -->
+    <!-- 
+  3)event handling by event listeners
+  node.EventListener(event,callback);
+  node.removeEventListener(event,callback);
+ -->
+    <script src="./events.js"></script>
+  </body>
+</html>

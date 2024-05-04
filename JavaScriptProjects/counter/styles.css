@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+h1{
+    /* font-size:larger; */
+    margin: 20vh 0 20px;
+    color:green;
+}
+button{
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+button:hover{
+    color:white;
+    background-color:black;
+}
+span{
+    font-size: 40px;
+    font-family: cursive;
+}
+div.btncontainer{
+    margin: 37px;
+}
